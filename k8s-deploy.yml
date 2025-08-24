@@ -18,7 +18,7 @@ spec:
   spec:
    containers:
    - name: webappcontainer
-     image: psait/pankajsiracademy:latest
+     image: rizwan1672002/deploy:latest
      ports:
      - containerPort: 9090
 ---
@@ -33,4 +33,5 @@ spec:
  ports:
   - port: 80
     targetPort: 9090
+
 ...
